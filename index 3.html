@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#008080" />
+<title>GYULdows 98 · 설탕귤.exe v2</title>
+<style>
+:root{--desktop:#008080;--face:#c0c0c0;--light:#fff;--shadow:#808080;--dark:#404040;--navy:#000080;--ink:#121212;--orange:#ff9d17;--task:44px}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:"Malgun Gothic","Apple SD Gothic Neo",Tahoma,sans-serif;font-size:13px;color:var(--ink);user-select:none;-webkit-tap-highlight-color:transparent}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,.icon:focus-visible{outline:2px dotted #111;outline-offset:2px}.desktop{position:relative;width:100%;height:100dvh;background:var(--desktop);overflow:hidden;background-image:radial-gradient(#ffffff0e 1px,transparent 1px);background-size:6px 6px}.desktop[data-wallpaper="blue"]{--desktop:#244a89}.desktop[data-wallpaper="pink"]{--desktop:#a56d8c}.desktop[data-wallpaper="night"]{--desktop:#263444}.desktop-icons{display:grid;grid-auto-flow:column;grid-template-rows:repeat(5,90px);grid-auto-columns:92px;gap:9px 8px;position:absolute;left:12px;top:12px;z-index:1}.icon{height:88px;width:88px;color:white;border:1px solid transparent;background:transparent;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;gap:6px;padding:7px 3px;text-align:center;text-shadow:1px 1px #000;font-size:12px}.icon:hover,.icon:focus-visible{background:#00008055;border:1px dotted #fff}.icon .art{font-size:38px;line-height:42px;filter:drop-shadow(2px 2px 0 #2226)}.sticker{position:absolute;right:clamp(18px,8vw,110px);top:clamp(55px,16vh,160px);width:290px;max-width:44vw;color:#fff;text-align:center;pointer-events:none;text-shadow:3px 3px #004b4b66;transform:rotate(-5deg)}.sticker .big{font-size:clamp(40px,7vw,74px);font-weight:900;letter-spacing:-4px;line-height:1.05}.sticker .small{font-size:12px;letter-spacing:2px;font-weight:bold}.sticker .fruit{font-size:clamp(45px,7vw,80px);margin:16px 0}.sticker .hint{line-height:1.7;font-weight:bold;font-size:13px}.taskbar{position:absolute;bottom:0;left:0;right:0;height:calc(var(--task) + env(safe-area-inset-bottom));padding:4px 6px calc(4px + env(safe-area-inset-bottom));background:var(--face);display:flex;align-items:center;gap:5px;border-top:2px solid white;z-index:1000;box-shadow:0 -1px #666}.win-btn,.start-btn,.task-btn,.tool-btn,.tiny-btn{background:var(--face);color:#111;border:2px solid;border-color:var(--light) var(--dark) var(--dark) var(--light);border-radius:0;min-height:29px;padding:3px 9px}.win-btn:active,.start-btn:active,.task-btn:active,.tool-btn:active,.tiny-btn:active,.pressed{border-color:var(--dark) var(--light) var(--light) var(--dark)!important}.start-btn{font-weight:bold;white-space:nowrap}.task-tabs{flex:1;display:flex;min-width:0;gap:4px;overflow-x:auto;scrollbar-width:none}.task-tabs::-webkit-scrollbar{display:none}.task-btn{min-width:90px;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left}.task-btn.active{background:#aaa;border-color:var(--dark) var(--light) var(--light) var(--dark)}.tray{background:#b3b3b3;border:2px inset #eee;padding:5px 8px;display:flex;gap:12px;white-space:nowrap;align-items:center;font-size:12px}.orange-count{font-weight:bold;color:#8c3b00}.start-menu{position:absolute;bottom:calc(var(--task) + env(safe-area-inset-bottom));left:4px;width:240px;background:var(--face);z-index:1100;border:2px solid;border-color:white #444 #444 white;box-shadow:2px 2px #111;display:none;padding:3px}.start-menu.show{display:flex}.start-side{writing-mode:vertical-rl;transform:rotate(180deg);background:var(--navy);color:white;font-size:20px;font-weight:900;padding:10px 6px}.start-items{flex:1}.menu-option{width:100%;background:none;border:0;text-align:left;padding:11px 9px}.menu-option:hover{background:var(--navy);color:#fff}.window{position:absolute;width:470px;max-width:calc(100% - 18px);min-width:270px;background:var(--face);border:3px solid;border-color:#fff #333 #333 #fff;box-shadow:1px 1px #000,4px 4px 0 #0005;padding:3px;display:none;flex-direction:column;max-height:calc(100dvh - var(--task) - 20px);overflow:hidden;z-index:5}.window.open{display:flex}.titlebar{display:flex;align-items:center;gap:7px;min-height:29px;background:linear-gradient(90deg,var(--navy),#1085b8);padding:3px 4px;color:#fff;font-weight:bold;touch-action:none;cursor:move}.titlebar.inactive{background:linear-gradient(90deg,#777,#aaa)}.titlebar .title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.window-actions{display:flex;gap:3px}.x-btn{width:25px;height:23px;padding:0;border:2px solid;border-color:#fff #444 #444 #fff;background:var(--face);font-weight:bold}.window-body{padding:12px;background:var(--face);overflow:auto;overscroll-behavior:contain;min-height:120px;user-select:text}.statusbar{border:1px inset #fff;padding:4px 6px;margin:4px 2px 1px;color:#444;font-size:11px}.win-heading{font-size:18px;font-weight:900;margin:0 0 8px}.panel{background:white;border:2px inset #eee;padding:12px;margin:9px 0}.panel.gray{background:#dedede}.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.column{display:flex;flex-direction:column;gap:8px}.sep{height:1px;background:#888;border-bottom:1px solid #fff;margin:12px 0}.folders{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.folder{border:1px dotted #777;background:#fff;padding:10px 5px;min-height:72px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center}.folder span{font-size:28px}.folder:hover{background:#d5e5ff}.folder small{color:#555}.address{background:white;border:2px inset #aaa;padding:7px;margin-bottom:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.note{background:#fffdf1;border:1px solid #c4b36d;padding:12px;line-height:1.8}.item-orange{display:flex;align-items:center;gap:12px;border:2px dashed #e6b04c;background:#fff6dc;padding:11px;margin:10px 0}.item-orange .fruit{font-size:36px}.item-orange small{display:block;color:#805520;margin-top:4px}.item-orange.collected{filter:grayscale(1);opacity:.7}.item-orange button{margin-left:auto}.wish-input{width:100%;min-height:96px;resize:vertical;border:2px inset #eee;background:white;padding:9px;user-select:text}.wish-input:disabled{background:#ddd;color:#777}.progress-bar{border:2px inset #fff;background:#fff;height:26px;padding:2px;margin:10px 0}.progress-fill{height:100%;background:repeating-linear-gradient(90deg,#00843d 0 19px,#ffffff 19px 22px);transition:width .25s}.fake-browser{border:2px inset #eee;background:white;padding:12px}.browser-links button{display:block;border:0;background:none;color:#0000b8;text-decoration:underline;text-align:left;padding:7px 0}.browser-links button:hover{color:#d03b00}.popup-shade{position:absolute;inset:0;background:#0006;z-index:2000;display:none;align-items:center;justify-content:center;padding:15px}.popup-shade.show{display:flex}.popup{width:370px;max-width:100%;background:var(--face);padding:4px;border:3px solid;border-color:white #444 #444 white;box-shadow:5px 5px #0006}.popup-content{display:flex;gap:13px;align-items:center;line-height:1.7;padding:18px 13px}.popup-emoji{font-size:38px}.popup-footer{display:flex;justify-content:center;padding:2px 0 11px}.tiny-muted{color:#555;font-size:11px}.secret-locked{font-size:23px;font-weight:bold;text-align:center;padding:18px}.footer-links{margin-top:12px}.ghost-orange{position:absolute;top:51%;right:17%;font-size:34px;cursor:pointer;z-index:2;opacity:.3;transition:opacity .15s}.ghost-orange:hover{opacity:1}.credits{font-size:11px;color:#555;line-height:1.6}input[type=checkbox]{accent-color:#087e7e}input[type=radio]{accent-color:#087e7e}
+@media(max-width:620px){.desktop-icons{grid-template-rows:repeat(5,79px);grid-auto-columns:77px;gap:5px 2px;left:6px;top:8px}.icon{width:75px;height:77px;font-size:11px}.icon .art{font-size:30px;line-height:34px}.sticker{top:30px;right:9px;max-width:54vw;opacity:.77}.sticker .hint{font-size:10px}.window{left:9px!important;top:55px!important;width:calc(100% - 18px)!important;max-height:calc(100dvh - 115px);box-shadow:2px 2px #0006}.window-body{padding:9px}.tray{gap:5px;padding:5px}.task-btn{min-width:68px;max-width:90px;font-size:11px}.start-btn{padding:3px 6px}.ghost-orange{right:12%;top:67%}.folders{gap:6px}.folder{font-size:12px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* GYULdows 98 update 2.0 */
+.pixel-icon{width:40px;height:40px;display:block;shape-rendering:crispEdges;image-rendering:pixelated;filter:drop-shadow(2px 2px 0 #0006)}
+.icon .art{width:43px;height:43px;display:grid;place-items:center;filter:none}
+.logo-orange{width:66px;height:66px;display:inline-block;vertical-align:middle}
+.window-actions{position:relative;z-index:3;flex:none;align-items:center}
+.window-actions button{touch-action:manipulation;position:relative;z-index:4}
+.x-btn{display:inline-flex;align-items:center;justify-content:center;line-height:1;min-width:25px;min-height:23px}
+.max-btn{font-family:Tahoma,sans-serif;font-size:17px}
+.window.maximized{left:4px!important;top:4px!important;width:calc(100% - 8px)!important;height:calc(100dvh - var(--task) - env(safe-area-inset-bottom) - 9px)!important;max-width:none!important;max-height:none!important}
+.window.maximized .window-body{flex:1;min-height:0}
+.boot-screen{position:fixed;inset:0;z-index:5000;background:#050505;color:#eee;display:flex;align-items:center;justify-content:center;flex-direction:column;font-family:Tahoma,'Malgun Gothic',sans-serif;padding:20px;transition:opacity .55s}
+.boot-screen.hidden{opacity:0;pointer-events:none}
+.boot-logo{font-size:clamp(36px,8vw,78px);font-weight:900;letter-spacing:-4px;text-shadow:3px 3px #333;white-space:nowrap}
+.boot-logo span:not(.boot-mark){font-weight:400}
+.boot-logo sup{font-size:.35em;vertical-align:top;color:#ffb63b;letter-spacing:0}
+.boot-mark{display:inline-block;background:linear-gradient(135deg,#f80 50%,#ffe55b 50%);color:#111;padding:0 8px;letter-spacing:0;transform:rotate(-5deg)}
+.boot-subtitle{margin:22px 0 46px;color:#a3a3a3;font-size:13px;text-align:center}
+.boot-loader{width:min(350px,85vw);height:21px;border:2px inset #ccc;background:#131313;padding:2px}
+.boot-loader>div{height:100%;width:0%;background:repeating-linear-gradient(90deg,#000082 0 17px,#1111d1 17px 21px);transition:width .12s linear}
+.boot-line{color:#ccc;margin-top:12px;font:12px monospace;min-height:20px}
+.boot-skip{background:transparent;border:1px solid #777;color:#ccc;margin-top:28px;padding:9px 16px;cursor:pointer}
+.harvest-layer{position:fixed;inset:0;z-index:3500;pointer-events:none;overflow:hidden}
+.harvest-burst{position:absolute;font-size:56px;transform:translate(-50%,-50%);animation:harvestPop .95s ease-out forwards;filter:drop-shadow(0 0 15px #ffbc45)}
+.harvest-spark{position:absolute;font-size:23px;animation:sparkFly .85s ease-out forwards}
+@keyframes harvestPop{0%{transform:translate(-50%,-50%) scale(.25) rotate(-25deg);opacity:0}35%{transform:translate(-50%,-85%) scale(1.4) rotate(15deg);opacity:1}100%{transform:translate(-50%,-170%) scale(.8) rotate(0);opacity:0}}
+@keyframes sparkFly{0%{opacity:1;transform:translate(-50%,-50%) scale(.4)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1.6)}}
+.finale{position:fixed;inset:0;z-index:4800;display:none;align-items:center;justify-content:center;padding:20px;color:#fff;text-align:center;background:radial-gradient(ellipse at 50% 40%,#8a3600,#2b130f 45%,#080507 85%);overflow:hidden}
+.finale.show{display:flex;animation:finaleIn .6s ease-out}
+.finale:before{content:'✧　✦　✧　✺　✦　✧　✦';position:absolute;inset:-20%;font-size:50px;letter-spacing:35px;opacity:.18;transform:rotate(-15deg);animation:starSpin 18s linear infinite;pointer-events:none}
+.finale-content{position:relative;width:min(570px,100%);z-index:1}
+.finale-star{font-size:95px;color:#ffc743;text-shadow:0 0 38px #ffbf53;animation:starPulse 1.6s ease-in-out infinite}
+.finale-kicker{font:12px monospace;letter-spacing:3px;color:#ffc886;margin:12px}
+.finale h1{font-size:clamp(28px,6vw,45px);margin:18px 0;text-shadow:2px 3px #401000}
+.finale-quote{font-size:16px;overflow-wrap:anywhere;line-height:1.8;max-height:110px;overflow:auto}
+.finale #finaleResult{color:#f8d9af;line-height:1.9;min-height:65px}
+.finale-close{padding:12px 24px;min-height:45px;margin-top:20px;display:none}
+.finale.finished .finale-close{display:inline-block}
+@keyframes finaleIn{from{opacity:0}to{opacity:1}}
+@keyframes starPulse{50%{transform:scale(1.18) rotate(12deg);filter:brightness(1.4)}}
+@keyframes starSpin{to{transform:rotate(345deg)}}
+@media(max-width:620px){.pixel-icon{width:34px;height:34px}.icon .art{height:35px;width:35px}.logo-orange{width:48px;height:48px}.window.maximized{left:0!important;top:0!important;width:100%!important;height:calc(100dvh - var(--task) - env(safe-area-inset-bottom))!important;max-height:none!important}}
+@media(prefers-reduced-motion:reduce){.harvest-burst,.harvest-spark,.finale-star,.finale:before{animation:none}}
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
+<symbol id="px-computer" viewBox="0 0 32 32"><path fill="#171717" d="M2 3h28v22H2zM11 26h10v3H11zM6 29h20v2H6z"/><path fill="#e9e9e9" d="M4 5h24v18H4z"/><path fill="#147b86" d="M6 7h20v14H6z"/><path fill="#82f3ee" d="M8 9h13v2H8zM8 13h7v2H8z"/><path fill="#a0a0a0" d="M12 26h8v2h-8z"/></symbol>
+<symbol id="px-folder" viewBox="0 0 32 32"><path fill="#6b4600" d="M2 8h12l3 4h13v16H2z"/><path fill="#ffec75" d="M3 9h10l3 4H3z"/><path fill="#d68a11" d="M2 14h27l-3 13H2z"/><path fill="#ffd453" d="M5 15h25l-4 11H3z"/></symbol>
+<symbol id="px-browser" viewBox="0 0 32 32"><path fill="#262626" d="M3 3h26v26H3z"/><path fill="#efefef" d="M5 5h22v22H5z"/><path fill="#000080" d="M5 5h22v5H5z"/><path fill="#00a5db" d="M11 12h12v12H11z"/><path fill="#00316d" d="M14 12h5v12h-5zM11 16h12v3H11z"/><path fill="#fff" d="M7 6h3v3H7z"/></symbol>
+<symbol id="px-notepad" viewBox="0 0 32 32"><path fill="#242424" d="M5 2h22v29H5z"/><path fill="#fff8e0" d="M7 4h18v25H7z"/><path fill="#466fbd" d="M9 9h14v2H9zM9 14h12v2H9zM9 19h13v2H9zM9 24h8v2H9z"/><path fill="#d22" d="M10 2h2v5h-2zM17 2h2v5h-2z"/></symbol>
+<symbol id="px-recycle" viewBox="0 0 32 32"><path fill="#222" d="M8 7h16v3H8zM5 11h22v3H5zM7 14h18l-2 15H9z"/><path fill="#dedede" d="M9 14h14l-2 13H11z"/><path fill="#15749d" d="M13 16h2v9h-2zM18 16h2v9h-2z"/></symbol>
+<symbol id="px-paint" viewBox="0 0 32 32"><path fill="#242424" d="M3 4h26v23H3z"/><path fill="#fff" d="M5 6h22v19H5z"/><path fill="#efb445" d="M8 19h16v4H8z"/><path fill="#d75b22" d="M12 9h4v4h-4z"/><path fill="#168d5a" d="M19 11h4v4h-4z"/><path fill="#258ac2" d="M7 11h4v4H7z"/><path fill="#333" d="M13 27h6v4h-6z"/></symbol>
+<symbol id="px-control" viewBox="0 0 32 32"><path fill="#303030" d="M12 2h8v5h4l4 5-4 4v4l4 4-5 5-4-4h-5l-4 4-5-5 4-5v-4l-4-4 5-5h2z"/><path fill="#a8a8a8" d="M13 5h6v5h5v4h-5v5h-6v-5H8v-4h5z"/><path fill="#f8f8f8" d="M13 12h7v7h-7z"/><path fill="#555" d="M15 14h3v3h-3z"/></symbol>
+<symbol id="px-orange" viewBox="0 0 32 32"><path fill="#9d4700" d="M11 6h13v3h4v5h2v11h-3v4H7v-3H3V14h3v-5h5z"/><path fill="#ff960d" d="M10 9h15v3h3v13h-4v3H8v-4H5V14h5z"/><path fill="#ffc453" d="M9 13h5v4H9z"/><path fill="#fff2b5" d="M10 14h2v2h-2z"/><path fill="#488c27" d="M15 6V3h4v3h5v2h-7z"/></symbol>
+<symbol id="px-secret" viewBox="0 0 32 32"><path fill="#222" d="M8 4h16v14H8zM4 14h24v16H4z"/><path fill="#dadada" d="M11 7h10v10H11z"/><path fill="#e4ae32" d="M7 17h18v10H7z"/><path fill="#333" d="M15 20h3v5h-3z"/></symbol>
+</defs></svg>
+<div class="desktop" id="desktop" data-wallpaper="teal">
+  <div class="desktop-icons" id="icons">
+    <button class="icon" data-open="computer"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-computer"></use></svg></span><span>내 컴퓨터</span></button>
+    <button class="icon" data-open="explorer"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-folder"></use></svg></span><span>귤 탐색기</span></button>
+    <button class="icon" data-open="browser"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-browser"></use></svg></span><span>귤 인터넷</span></button>
+    <button class="icon" data-open="notepad"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-notepad"></use></svg></span><span>소원 메모장</span></button>
+    <button class="icon" data-open="recycle"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-recycle"></use></svg></span><span>귤 휴지통</span></button>
+    <button class="icon" data-open="paint"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-paint"></use></svg></span><span>귤 그림판</span></button>
+    <button class="icon" data-open="control"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-control"></use></svg></span><span>제어판</span></button>
+    <button class="icon" data-open="collection"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-orange"></use></svg></span><span>귤 수집 현황</span></button>
+    <button class="icon" data-open="secret"><span class="art"><svg class="pixel-icon" viewBox="0 0 32 32"><use href="#px-secret"></use></svg></span><span>SECRET.exe</span></button>
+  </div>
+  <div class="sticker" aria-hidden="true"><div class="small">© 1998 WISH SYSTEM</div><div class="big">GYUL<br>dows 98</div><div class="fruit"><svg class="pixel-icon logo-orange" viewBox="0 0 32 32"><use href="#px-orange"></use></svg> ✦ <svg class="pixel-icon logo-orange" viewBox="0 0 32 32"><use href="#px-orange"></use></svg></div><div class="hint">설탕 코팅된 귤 일곱 알.<br>소원 한 개와 교환합니다.</div></div>
+  <button class="ghost-orange" id="desktopOrange" title="뭔가 반짝인다" aria-label="바탕화면의 수상한 귤">🍊</button>
+  <div class="start-menu" id="startMenu"><div class="start-side">GYULdows 98</div><div class="start-items"><button class="menu-option" data-open="computer">🖥️ 내 컴퓨터</button><button class="menu-option" data-open="collection">🍊 수집 현황</button><button class="menu-option" data-open="notepad">📝 소원 메모장</button><button class="menu-option" data-open="control">⚙️ 제어판</button><hr><button class="menu-option" id="helpBtn">❔ 도움말</button><button class="menu-option" id="shutdown">⏻ 시스템 종료</button></div></div>
+  <div class="taskbar"><button class="start-btn" id="startBtn" aria-expanded="false">🍊 시작</button><div class="task-tabs" id="taskTabs"></div><div class="tray"><span class="orange-count" id="taskCount">🍊 0/7</span><span id="clock">00:00</span></div></div>
+  <div class="popup-shade" id="popupShade" role="presentation"><div class="popup" role="alertdialog" aria-modal="true" aria-labelledby="popupTitle"><div class="titlebar"><span id="popupTitle" class="title">시스템 알림</span><div class="window-actions"><button class="x-btn" id="popupX" aria-label="닫기">×</button></div></div><div class="popup-content"><span class="popup-emoji" id="popupEmoji">🍊</span><div id="popupText"></div></div><div class="popup-footer"><button class="win-btn" id="popupOk" style="min-width:90px">확인</button></div></div></div>
+</div>
+<script>
+(() => {
+'use strict';
+const desktop=document.getElementById('desktop');
+const tabs=document.getElementById('taskTabs');
+const $=id=>document.getElementById(id);
+const KEY='gyuldows98_v1';
+const DEFAULT={found:[],wallpaper:'teal',sound:true,wishes:0};
+let state;
+try{state={...DEFAULT,...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch{state={...DEFAULT}}
+if(!Array.isArray(state.found))state.found=[];
+state.found=state.found.filter(v=>Number.isInteger(v)&&v>=1&&v<=7);
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}};
+let z=10;
+let audio;
+function sound(freq=660){if(!state.sound)return;try{audio ||= new (window.AudioContext||window.webkitAudioContext)();const osc=audio.createOscillator(),gain=audio.createGain();osc.type='square';osc.frequency.value=freq;gain.gain.setValueAtTime(.04,audio.currentTime);gain.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.12);osc.connect(gain);gain.connect(audio.destination);osc.start();osc.stop(audio.currentTime+.13)}catch{}}
+const fruits=[null,'바탕화면의 수상한 귤','귤 탐색기 깊은 폴더','귤 인터넷 광고','휴지통 속 멀쩡한 귤','그림판 아래의 귤','내 컴퓨터의 숨겨진 저장소','제어판의 진단용 귤'];
+let popupAfter=null;
+function alertBox(message,title='시스템 알림',emoji='🍊',after=null){$('popupText').textContent=message;$('popupTitle').textContent=title;$('popupEmoji').textContent=emoji;popupAfter=after;$('popupShade').classList.add('show');$('popupOk').focus()}
+function closePopup(){$('popupShade').classList.remove('show');const callback=popupAfter;popupAfter=null;if(callback)callback()}
+$('popupOk').onclick=e=>{e.stopPropagation();closePopup()};$('popupX').onclick=e=>{e.stopPropagation();closePopup()};
+function harvestAnimation(x,y){const layer=$('harvestLayer');const main=document.createElement('span');main.className='harvest-burst';main.textContent='🍊';main.style.left=x+'px';main.style.top=y+'px';layer.appendChild(main);setTimeout(()=>main.remove(),1100);for(let i=0;i<12;i++){const sp=document.createElement('span');sp.className='harvest-spark';sp.textContent=i%3===0?'✦':'✧';sp.style.left=x+'px';sp.style.top=y+'px';const a=i*Math.PI/6;sp.style.setProperty('--dx',Math.round(Math.cos(a)*110)+'px');sp.style.setProperty('--dy',Math.round(Math.sin(a)*110)+'px');layer.appendChild(sp);setTimeout(()=>sp.remove(),1000)}}
+function collect(n,x=innerWidth/2,y=innerHeight/2){if(state.found.includes(n)){alertBox('이 귤은 이미 주머니에 있습니다. 중복 수집은 안 됩니다.','중복 획득','🧺');return}state.found.push(n);state.found.sort((a,b)=>a-b);save();sound(880);update();harvestAnimation(x,y);alertBox(`설탕 코팅된 귤 ${n}번을 획득했습니다! (${state.found.length}/7)`,'아이템 획득!','🍊',state.found.length===7?()=>{sound(1100);alertBox('일곱 개가 모두 모였습니다! 소원 메모장에서 소원을 실행할 수 있습니다.','수집 완료','✨');openWindow('notepad')}:null)}
+function fruit(n,label='🍊 수상한 귤을 줍는다'){return `<div class="item-orange ${state.found.includes(n)?'collected':''}"><span class="fruit">🍊</span><div><b>설탕 코팅된 귤 #${n}</b><small>${state.found.includes(n)?'이미 획득한 귤입니다':fruits[n]}</small></div><button class="win-btn" data-collect="${n}">${state.found.includes(n)?'확인':'줍기'}</button></div>`}
+const windows={};
+function windowMarkup(id,title,icon){const el=document.createElement('section');el.className='window';el.id='win-'+id;el.setAttribute('role','dialog');el.setAttribute('aria-label',title);el.style.left=(105+(Object.keys(windows).length%5)*24)+'px';el.style.top=(65+(Object.keys(windows).length%5)*22)+'px';el.innerHTML=`<div class="titlebar"><span>${icon}</span><span class="title">${title}</span><div class="window-actions"><button type="button" class="x-btn max-btn" data-max="${id}" aria-label="${title} 최대화">□</button><button type="button" class="x-btn" data-close="${id}" aria-label="${title} 닫기">×</button></div></div><div class="window-body"></div><div class="statusbar">GYULdows 98 · 준비 완료</div>`;desktop.appendChild(el);windows[id]={el,title,icon};enableDrag(el);
+// Direct controls: click is handled on the button, not indirectly via desktop.
+el.querySelector('[data-close]').addEventListener('click', e=>{e.preventDefault();e.stopPropagation();closeWindow(id)});
+el.querySelector('[data-max]').addEventListener('click', e=>{e.preventDefault();e.stopPropagation();toggleMax(id)});
+return el}
+const definitions={computer:['내 컴퓨터','🖥️'],explorer:['귤 탐색기','📁'],browser:['귤 인터넷','🌐'],notepad:['소원 메모장','📝'],recycle:['귤 휴지통','🗑️'],paint:['귤 그림판','🎨'],control:['제어판','⚙️'],collection:['귤 수집 현황','🍊'],secret:['SECRET.exe','🔒']};
+Object.entries(definitions).forEach(([id,[title,icon]])=>windowMarkup(id,title,icon));
+let folder='root',webPage='home';
+function render(id){const body=windows[id].el.querySelector('.window-body');let html='';
+switch(id){
+case 'computer':html=`<h2 class="win-heading">🖥️ 내 컴퓨터</h2><div class="panel gray"><b>운영체제:</b> GYULdows 98<br><b>프로세서:</b> 설탕 486DX<br><b>현재 소원 처리량:</b> 0.00%<br><b>설치된 귤:</b> ${state.found.length}개</div><div class="folders"><button class="folder" data-open="explorer"><span>💾</span>로컬 디스크 (C:)</button><button class="folder" data-open="collection"><span>🍊</span>귤 저장소</button></div><div class="sep"></div><p>장치 관리자가 정체불명의 귤 드라이브를 발견했습니다.</p>${fruit(6)}`;break;
+case 'explorer':{
+let location={root:'C:\\',wish:'C:\\WISH',sugar:'C:\\SUGAR',hidden:'C:\\SYSTEM\\HIDDEN'}[folder];html=`<h2 class="win-heading">📁 귤 탐색기</h2><div class="address">주소(D): ${location}</div>`;
+if(folder==='root')html+=`<div class="folders"><button class="folder" data-folder="wish"><span>📁</span>WISH</button><button class="folder" data-folder="sugar"><span>📁</span>SUGAR</button><button class="folder" data-folder="hidden"><span>🔐</span>HIDDEN</button></div><p class="tiny-muted">폴더를 눌러 파일을 살펴보세요.</p>`;
+if(folder==='wish')html+=`<button class="win-btn" data-folder="root">← 뒤로</button><div class="note">README.TXT<br>소원을 빌려면 귤을 일곱 개 모으세요.<br>냉장 보관은 권장하지 않습니다.</div><button class="win-btn" data-open="notepad">소원 메모장 열기</button>`;
+if(folder==='sugar')html+=`<button class="win-btn" data-folder="root">← 뒤로</button><div class="panel">sugar_recipe.txt<br>설탕 100g, 물 50ml, 기적 한 스푼.</div>`;
+if(folder==='hidden')html+=`<button class="win-btn" data-folder="root">← 뒤로</button><div class="note">⚠️ 관리자 권한이 필요합니다.<br>하지만 관리자는 귤을 먹으러 갔습니다.</div>${fruit(2)}`;
+break}
+case 'browser':{
+html=`<h2 class="win-heading">🌐 GYUL Explorer 5.0</h2><div class="address">주소: http://www.gyul.wish/${webPage}</div><div class="fake-browser">`;
+if(webPage==='home')html+=`<h3>🍊 귤 인터넷 포털</h3><p>환영합니다! 전 세계 7개의 귤을 검색합니다.</p><div class="browser-links"><button data-web="shop">🍊 설탕귤 쇼핑몰 [광고]</button><button data-web="news">📰 오늘의 귤 뉴스</button><button data-web="forum">💬 귤 게시판</button></div>`;
+if(webPage==='shop')html+=`<button class="win-btn" data-web="home">← 홈</button><h3>★ 긴급 귤 특가 ★</h3><p>단 0원! 택배비는 소원 하나!</p>${fruit(3)}`;
+if(webPage==='news')html+=`<button class="win-btn" data-web="home">← 홈</button><h3>속보: 설탕 코팅된 귤 품귀</h3><p>전문가들은 실종된 귤을 찾는 누군가가 있다고 설명했습니다.</p>`;
+if(webPage==='forum')html+=`<button class="win-btn" data-web="home">← 홈</button><h3>익명 귤 게시판</h3><p>ㅇㅇ: 귤 7개 모으면 진짜 소원 들어줌?</p><p>귤관리자: 이용약관을 확인해 주세요.</p>`;
+html+='</div>';break}
+case 'notepad':html=`<h2 class="win-heading">📝 소원.txt</h2><div class="note">설탕 코팅된 귤 일곱 개를 제출하면<br>소원 한 개를 실행할 수 있습니다.<br><br>현재 확보: <b>${state.found.length}/7</b></div><div class="sep"></div><label for="wishText"><b>소원 내용을 작성하세요.</b></label><textarea class="wish-input" id="wishText" placeholder="여기에 소원을 적으세요..." ${state.found.length!==7?'disabled':''}></textarea><div class="row" style="margin-top:10px"><button class="win-btn" id="runWish" ${state.found.length!==7?'disabled':''}>✨ 소원 실행.exe</button><span class="tiny-muted">${state.found.length===7?'실행 권한이 승인되었습니다.':'귤 7개를 모두 모으면 활성화됩니다.'}</span></div>`;break;
+case 'recycle':html=`<h2 class="win-heading">🗑️ 귤 휴지통</h2><p>휴지통에 있는 파일:</p><div class="panel">🍊 귤껍질.tmp<br>🍊 귤껍질(1).tmp<br>📄 어제의 소원.doc</div><p>이상하게도 아직 멀쩡한 귤 하나가 보입니다.</p>${fruit(4)}`;break;
+case 'paint':html=`<h2 class="win-heading">🎨 귤 그림판</h2><div style="background:white;border:3px inset #ddd;height:185px;display:grid;place-items:center;position:relative"><div style="font-size:95px">🍊</div><span style="position:absolute;bottom:6px;right:8px;font-size:11px">무제 - 그림판</span></div><p>작품명: 귤의 초상 (1998)</p>${fruit(5)}`;break;
+case 'control':html=`<h2 class="win-heading">⚙️ 제어판</h2><div class="panel"><b>바탕화면 설정</b><div class="row" style="margin-top:9px"><button class="win-btn" data-theme="teal">청록</button><button class="win-btn" data-theme="blue">파랑</button><button class="win-btn" data-theme="pink">분홍</button><button class="win-btn" data-theme="night">야간</button></div></div><div class="panel"><label><input type="checkbox" id="soundToggle" ${state.sound?'checked':''}> 효과음 켜기</label></div><p>시스템 진단 도중 귤이 발견되었습니다.</p>${fruit(7)}<div class="sep"></div><button class="win-btn" id="resetBtn">🧹 수집 기록 초기화</button><p class="tiny-muted">초기화하면 모은 귤과 소원 실행 횟수가 삭제됩니다.</p>`;break;
+case 'collection':html=`<h2 class="win-heading">🍊 귤 수집 현황</h2><b>${state.found.length} / 7 수집 완료</b><div class="progress-bar"><div class="progress-fill" style="width:${state.found.length/7*100}%"></div></div><div class="panel">${Array.from({length:7},(_,i)=>`<div style="padding:6px;border-bottom:1px dotted #ddd">${state.found.includes(i+1)?'🍊':'❔'} 귤 #${i+1} · ${state.found.includes(i+1)?fruits[i+1]:'미발견'}</div>`).join('')}</div><p>🔎 단서: 바탕화면, 탐색기, 인터넷, 휴지통, 그림판, 내 컴퓨터, 제어판.</p><button class="win-btn" data-open="notepad">📝 소원 메모장으로 이동</button>`;break;
+case 'secret':html=state.found.length===7?`<div class="secret-locked">🍊 ACCESS GRANTED 🍊</div><div class="note" style="text-align:center">축하합니다.<br>당신은 일곱 개의 귤을 찾아냈습니다.<br><br>그런데 잠깐.<br><b>소원을 들어주는 건 대체 누구일까요?</b></div><button class="win-btn" data-open="notepad">소원을 실행한다</button>`:`<div class="secret-locked">🔒 ACCESS DENIED</div><div class="note">접근이 거부되었습니다.<br>필요한 귤: 7개<br>현재 보유: ${state.found.length}개</div>`;break;
+}
+body.innerHTML=html;
+if(id==='notepad'){$('runWish')?.addEventListener('click',runWish)}
+if(id==='control'){$('soundToggle')?.addEventListener('change',e=>{state.sound=e.target.checked;save()});$('resetBtn')?.addEventListener('click',()=>{if(confirm('정말 수집 기록을 초기화할까요?')){state.found=[];state.wishes=0;save();update();alertBox('귤 저장소가 비워졌습니다. 다시 모을 수 있습니다.','초기화 완료','🧹')}})}
+}
+function runWish(){if(state.found.length!==7)return;const wish=$('wishText')?.value.trim()||'';if(!wish){alertBox('소원을 입력해 주세요. 귤신은 독심술을 지원하지 않습니다.','입력 오류','⚠️');return}state.wishes++;save();sound(1000);showFinale(wish)}
+const endings=[['소원 접수 완료','귤신이 소원을 접수했습니다. 예상 처리 시간은 귤이 익을 때까지입니다.'],['오류 777','소원이 지나치게 인간적입니다. 그래도 귤신은 조금 감동했습니다.'],['승인되었습니다','단, 실행 담당자가 귤을 모두 먹고 조기 퇴근했습니다.'],['우주 저장 완료','당신의 소원은 7번 별의 설탕 창고에 안전하게 보관되었습니다.']];
+let finaleTimers=[];
+function clearFinaleTimers(){finaleTimers.forEach(clearTimeout);finaleTimers=[]}
+function showFinale(wish){clearFinaleTimers();const f=$('finale');f.classList.add('show');f.classList.remove('finished');f.setAttribute('aria-hidden','false');$('finaleTitle').textContent='소원 전송 중...';$('finaleWish').textContent='“'+wish+'”';$('finaleResult').textContent='설탕 입자 7개를 재정렬하는 중...';$('finaleStar').textContent='✦';const choice=endings[Math.floor(Math.random()*endings.length)];finaleTimers.push(setTimeout(()=>{$('finaleTitle').textContent='귤신 호출 중...';$('finaleResult').textContent='응답 수신 대기 중 ···';sound(570)},1000));finaleTimers.push(setTimeout(()=>{$('finaleTitle').textContent=choice[0];$('finaleResult').textContent=choice[1];$('finaleStar').textContent='🍊';f.classList.add('finished');sound(900);$('finaleClose').focus()},2400))}
+$('finaleClose').addEventListener('click',()=>{clearFinaleTimers();$('finale').classList.remove('show','finished');$('finale').setAttribute('aria-hidden','true');openWindow('secret')});
+function toggleMax(id){const w=windows[id];if(!w)return;w.el.classList.toggle('maximized');const on=w.el.classList.contains('maximized');w.el.querySelector('[data-max]').textContent=on?'❐':'□';w.el.querySelector('[data-max]').setAttribute('aria-label',w.title+(on?' 복원':' 최대화'));bringFront(id);sound(470)}
+function openWindow(id){const w=windows[id];if(!w)return;w.el.classList.add('open');render(id);bringFront(id);refreshTabs();closeStart()}
+function closeWindow(id){const w=windows[id];if(!w)return;w.el.classList.remove('open');w.el.classList.remove('maximized');w.el.querySelector('[data-max]').textContent='□';refreshTabs();sound(320)}
+function bringFront(id){z++;Object.entries(windows).forEach(([key,w])=>w.el.querySelector('.titlebar').classList.toggle('inactive',key!==id));windows[id].el.style.zIndex=z;refreshTabs()}
+function refreshTabs(){tabs.innerHTML=Object.entries(windows).filter(([id,w])=>w.el.classList.contains('open')).map(([id,w])=>`<button class="task-btn ${Number(w.el.style.zIndex)===z?'active':''}" data-task="${id}">${w.icon} ${w.title}</button>`).join('')}
+function update(){desktop.dataset.wallpaper=state.wallpaper;$('taskCount').textContent=`🍊 ${state.found.length}/7`;$('desktopOrange').style.display=state.found.includes(1)?'none':'block';Object.keys(windows).forEach(id=>{if(windows[id].el.classList.contains('open')){if(id==='notepad'){const old=$('wishText')?.value;render(id);if(old&&$('wishText'))$('wishText').value=old}else render(id)}})}
+function enableDrag(el){const bar=el.querySelector('.titlebar');let dragging=null;bar.addEventListener('pointerdown',e=>{if(e.target.closest('button')||el.classList.contains('maximized')||matchMedia('(max-width:620px)').matches)return;const r=el.getBoundingClientRect();dragging={pointer:e.pointerId,x:e.clientX-r.left,y:e.clientY-r.top};bar.setPointerCapture(e.pointerId);const id=el.id.slice(4);bringFront(id)});bar.addEventListener('pointermove',e=>{if(!dragging||dragging.pointer!==e.pointerId)return;const x=Math.max(0,Math.min(window.innerWidth-100,e.clientX-dragging.x));const y=Math.max(0,Math.min(window.innerHeight-100,e.clientY-dragging.y));el.style.left=x+'px';el.style.top=y+'px'});const stop=()=>{dragging=null};bar.addEventListener('pointerup',stop);bar.addEventListener('pointercancel',stop);el.addEventListener('pointerdown',()=>{bringFront(el.id.slice(4))})}
+function closeStart(){$('startMenu').classList.remove('show');$('startBtn').setAttribute('aria-expanded','false')}
+$('startBtn').addEventListener('click',()=>{const show=$('startMenu').classList.toggle('show');$('startBtn').setAttribute('aria-expanded',String(show));sound(440)});
+desktop.addEventListener('click',e=>{const collectBtn=e.target.closest('[data-collect]');if(collectBtn){collect(Number(collectBtn.dataset.collect),e.clientX,e.clientY);return}const close=e.target.closest('[data-close]');if(close){closeWindow(close.dataset.close);return}const max=e.target.closest('[data-max]');if(max){toggleMax(max.dataset.max);return}const open=e.target.closest('[data-open]');if(open){openWindow(open.dataset.open);sound(550);return}const folderBtn=e.target.closest('[data-folder]');if(folderBtn){folder=folderBtn.dataset.folder;render('explorer');sound(510);return}const link=e.target.closest('[data-web]');if(link){webPage=link.dataset.web;render('browser');sound(480);return}const theme=e.target.closest('[data-theme]');if(theme){state.wallpaper=theme.dataset.theme;save();update();sound(590);return}const task=e.target.closest('[data-task]');if(task){openWindow(task.dataset.task);return}if(!e.target.closest('#startMenu')&&!e.target.closest('#startBtn'))closeStart()});
+$('desktopOrange').onclick=e=>{e.stopPropagation();collect(1,e.clientX,e.clientY)};
+$('helpBtn').onclick=()=>{closeStart();alertBox('아이콘을 열어서 설탕 코팅된 귤 7개를 찾으세요. 모두 모으면 소원 메모장의 실행 버튼이 열립니다. 수집 기록은 이 브라우저에 저장됩니다.','사용 설명서','💡')};
+$('shutdown').onclick=()=>{closeStart();alertBox('시스템을 종료하려 했지만 귤이 전원 버튼을 먹었습니다.','종료 실패','🔌')};
+function setClock(){$('clock').textContent=new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit',hour12:false})}setClock();setInterval(setClock,30000);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('popupShade').classList.contains('show'))closePopup();else if($('finale').classList.contains('show')&&$('finale').classList.contains('finished'))$('finaleClose').click();else {const active=Object.entries(windows).filter(([,w])=>w.el.classList.contains('open')).sort((a,b)=>Number(b[1].el.style.zIndex)-Number(a[1].el.style.zIndex))[0];if(active)closeWindow(active[0]);else closeStart()}}});
+update();
+let bootEnded=false,bootTimers=[];
+function finishBoot(){if(bootEnded)return;bootEnded=true;bootTimers.forEach(clearTimeout);$('bootFill').style.width='100%';$('bootLine').textContent='GYULdows 98 준비 완료';$('bootScreen').classList.add('hidden');setTimeout(()=>$('bootScreen').remove(),650)}
+$('skipBoot').addEventListener('click',finishBoot);
+let progress=0;
+const bootTimer=setInterval(()=>{if(bootEnded){clearInterval(bootTimer);return}progress=Math.min(100,progress+14+Math.floor(Math.random()*12));$('bootFill').style.width=progress+'%';$('bootLine').textContent=progress<60?'C:\\GYUL\\SYSTEM 로딩 중...':progress<100?'귤 드라이브 연결 중...':'시스템 준비 완료';if(progress===100){clearInterval(bootTimer);bootTimers.push(setTimeout(finishBoot,500))}},250);
+bootTimers.push(bootTimer);
+
+})();
+</script>
+
+<div id="bootScreen" class="boot-screen" role="status" aria-label="귤도우 부팅 중">
+ <div class="boot-logo"><span class="boot-mark">▦</span> GYUL<span>dows</span><sup>98</sup></div>
+ <div class="boot-subtitle">설탕 코팅된 귤로 구동되는 운영체제</div>
+ <div class="boot-loader"><div id="bootFill"></div></div>
+ <div id="bootLine" class="boot-line">C:\GYUL\SYSTEM 로딩 중...</div>
+ <button id="skipBoot" class="boot-skip">부팅 건너뛰기 ↵</button>
+</div>
+<div class="harvest-layer" id="harvestLayer" aria-hidden="true"></div>
+<div class="finale" id="finale" role="dialog" aria-modal="true" aria-label="소원 실행 결과" aria-hidden="true">
+ <div class="finale-content">
+  <div class="finale-star" id="finaleStar">✦</div>
+  <div class="finale-kicker" id="finaleKicker">GYULdows 98 / WISH.EXE</div>
+  <h1 id="finaleTitle">소원 처리 중...</h1>
+  <p class="finale-quote" id="finaleWish"></p>
+  <p id="finaleResult">귤신에게 요청을 전송하고 있습니다.</p>
+  <button id="finaleClose" class="win-btn finale-close">바탕화면으로 돌아가기</button>
+ </div>
+</div>
+</body>
+</html>
